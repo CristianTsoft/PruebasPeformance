@@ -1,0 +1,73 @@
+[{
+	"line": 1,
+	"elements": [{
+		"line": 4,
+		"name": "",
+		"description": "",
+		"type": "background",
+		"keyword": "Background",
+		"steps": [{
+			"result": {
+				"duration": 35812000000,
+				"status": "failed"
+			},
+			"line": 5,
+			"name": "Abrir Aplicacion en BrowserStack",
+			"match": {
+				"location": "cucumber.hooks.Hook.abrir_aplicacion_en_browser_stack()"
+			},
+			"keyword": "Given "
+		}]
+	}, {
+		"start_timestamp": "2022-09-05T19:00:50.898Z",
+		"before": [{
+			"result": {
+				"duration": 74000000,
+				"status": "failed"
+			},
+			"match": {
+				"location": "cucumber.hooks.Hook.setUp(io.cucumber.java.Scenario)"
+			}
+		}],
+		"line": 7,
+		"name": "",
+		"description": "",
+		"id": "flujo--delivery-android;",
+		"after": [{
+			"result": {
+				"duration": 783000000,
+				"status": "failed"
+			},
+			"match": {
+				"location": "cucumber.hooks.Hook.tearDown()"
+			}
+		}],
+		"type": "scenario",
+		"keyword": "Scenario",
+		"steps": [{
+			"result": {
+				"duration": 16226000000,
+				"status": "failed"
+			},
+			"line": 8,
+			"name": "Seleccionar Pais \"Chile\"",
+			"match": {
+				"arguments": [{
+					"val": "\"Chile\"",
+					"offset": 17
+				}],
+				"location": "cucumber.steps.AndroidSteps.seleccionarPais(java.lang.String)"
+			},
+			"keyword": "When "
+		}],
+		"tags": [{
+			"name": "@TEST_PP1-2"
+		}]
+	}],
+	"name": "Flujo  Delivery Android",
+	"description": "  Como usuario quiero realizar un pedido delivery",
+	"id": "flujo--delivery-android",
+	"keyword": "Feature",
+	"uri": "file:src/test/resources/features/android/DeliveryAndroid.feature",
+	"tags": []
+}]
