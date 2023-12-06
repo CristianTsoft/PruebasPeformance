@@ -5,7 +5,7 @@
             "key": "PP1"
         },
         "summary": "PRUEBA DE PERFORMANCE",
-        "description": "ESTO ES UNA PRUEBA DE PERFORMANCE, TABLE",
+        "description": "URL DEL TEST EJECUTADO: URLJIRA , TABLE",
         "issuetype": {
             "name": "Test Execution"
         }
